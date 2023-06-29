@@ -27,3 +27,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+<img src='./screencapture-localhost-5173-2023-06-29-14_53_15.png'>
+<img src='./screencapture-localhost-5173-2023-06-29-14_53_40.png'>
