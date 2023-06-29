@@ -11,7 +11,7 @@ function getRandomColor(){
 }
 
 const addNotes = ()=>{
-  if(newNote.value.trim.length < 10 ){
+  if(newNote.value.length < 10 ){
     return error.value= "Note must be at least 10 character or more "
   }
   notes.value.push({
@@ -23,7 +23,7 @@ const addNotes = ()=>{
 
   showModel.value = false
   newNote.value = ""
-  error.value = ""
+  error.value = " "
 }
 
 </script>
